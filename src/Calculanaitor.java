@@ -13,5 +13,7 @@ public class Calculanaitor {
         System.out.println("Division: " + (a / b));
         System.out.println("Potencia: " + Math.pow(a, b));
         System.out.println("Porcentaje: " + ((a * b) / 100.0));
+        System.out.println("Arrel de a " + Math.sqrt(a));
+        System.out.println("Arrel de b " + Math.sqrt(b));
     }
 }

@@ -3,7 +3,7 @@ public class Calculanaitor {
 
 	public static void main(String[] args) {
 		
-		System.out.println("=== Calculadora Básica ===");
+		System.out.println("=== Calc Básica ===");
 	        int a = 10;
 	        int b = 5;
 	 
@@ -11,7 +11,7 @@ public class Calculanaitor {
 	        System.out.println("Resta: " + (a - b));
 	        System.out.println("Multiplicación: " + (a * b));
 	        System.out.println("División: " + (a / b));
-
+	        System.out.println("Potencia: " + Math.pow(a, b));
 	}
 
 }
